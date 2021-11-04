@@ -17,7 +17,11 @@ app.use(express.json());
 app.use(layouts);
 
 app.get('/',(req,res) => {
+<<<<<<< HEAD
     res.render('index',{name: 'Yuanyuan Shou'});
+=======
+    res.render('index',{name: 'Vikas'});
+>>>>>>> YuanyuanTest
 });
 
 
@@ -25,4 +29,8 @@ app.listen(app.get('port'),
 () => {
     console.log(`Server is running at the port ${app.get('port')}`)
 }
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> YuanyuanTest
