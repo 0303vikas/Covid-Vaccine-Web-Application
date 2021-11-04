@@ -17,9 +17,7 @@ app.use(express.json());
 app.use(layouts);
 
 app.get('/',(req,res) => {
-<<<<<<< HEAD
-    res.render('index',{name: 'Yuanyuan Shou'});
-=======
+
     res.render('index',{name: 'Vikas'});
 >>>>>>> YuanyuanTest
 });
