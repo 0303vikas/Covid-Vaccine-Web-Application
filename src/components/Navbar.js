@@ -1,5 +1,6 @@
 import Navbar from 'react-bootstrap/Navbar'
 import NavLink from 'react-bootstrap/NavLink'
+import { Link } from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
 import  Container from 'react-bootstrap/Container';
 import "../App.css"
@@ -24,9 +25,9 @@ const MainNavbar = (props) => {
             <Container>
                 
                 <Image src={image} alt="CovidVaccine Logo" className="logoimg" height="200" rounded/>
-                {listofitems.map((object) => { return(<NavLink exact to={object.link} className={object.id}>{object.title}
+                {listofitems.map((object) => { return(<NavLink><Link exact to={object.link} className={object.id}>{object.title}
                     
-                    </NavLink>)
+                    </Link></NavLink>)
                 })}
 
                 
