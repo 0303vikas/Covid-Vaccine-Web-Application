@@ -38,42 +38,38 @@
 }
 
 /* Navigation bar css */
-.navbarhead{
-
-  background-color: #86BD84;
-  
+.navbarhead {
+  background-color: #86bd84;
 }
 
-.logoimg{
+.logoimg {
   width: 20%;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 30px;
 }
 
 .navhome .navvaccine .navlogout .navcovidtest .navreport {
   padding: 0px 8px;
-  
 }
 
-.nav-link{
-  padding: 0px 3% ;
+.navbarcont {
+  padding: 0px 3%;
   font-size: 3vh;
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.bottomnav{
+.bottomnav {
   text-align: center;
   width: 100%;
-  background-color: #86BD84;
+  background-color: #86bd84;
   padding: 30px 0px;
   color: white;
-  
-
 }
-
-
+#cssstyleid:hover,
+#cssstyleid:active {
+  color: red;
+}
 
 /* .bodycontainer{
 
@@ -99,7 +95,3 @@
 .bodycontainer:nth-child(3){
   width: 40%;
 } */
-
-
-
-

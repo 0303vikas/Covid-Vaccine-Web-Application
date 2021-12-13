@@ -24,7 +24,7 @@ const listnavbar = [
     },
     {
         title: "Logout",
-        link: "/",
+        link: "/logout",
         id: "navlogout"
     },
 
