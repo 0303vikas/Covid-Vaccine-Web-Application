@@ -22,13 +22,15 @@ const MainNavbar = (props) => {
 
         return(<>
         <Navbar className="navbarhead" >
-            <Container>
+            <Container >
                 
-                <Image src={image} alt="CovidVaccine Logo" className="logoimg" height="200" rounded/>
-                {listofitems.map((object) => { return(<NavLink><Link exact to={object.link} className={object.id}>{object.title}
+                <Image src={image} alt="CovidVaccine Logo" className="logoimg" height="180" rounded/>
+                <div className="navbarcont">
+                {listofitems.map((object,index) => { return(<Link to={object.link} key={index} className={object.id} id="cssstyleid" style={{paddingRight: "5%", textDecoration: 'none'  }}exact="true">{object.title} 
                     
-                    </Link></NavLink>)
+                    </Link>)
                 })}
+                </div>
 
                 
             </Container> 
